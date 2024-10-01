@@ -1,0 +1,13 @@
+Normalisasi 1
+•  Tiap kolom tidak boleh menyimpan data lebih dari satu
+•  Tidak ada kolom yang duplikat
+•  Tidak ada baris duplikat
+•  Tidak ada atribut turunan
+
+Normalisasi 2
+•  Buat table terpisan untuk nilai yang keluar berulang kali pada beberapa baris
+•  Tambah Primary Key pada tiap table
+•  Hubungkan menggunakan Foreign Key
+
+Normalisasi 3
+• Pindahkan kolom-kolom yang tidak tergantung ke key menjadi table lain
