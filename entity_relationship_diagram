@@ -1,0 +1,11 @@
+Implementasi One to One
+•  Jika Entity yang akan berelasi dengan Entity lain memiliki persamaan nilai Attribute Key, maka bisa digunakan sebagai acuan bersama.
+•  Namun jika pada kasusnya Attribute Key berbeda / independen untuk tiap Entity, maka perlu adanya Attribute Foreign Key untuk Entity yang lemah.
+
+Implementasi One to Many atau Sebaliknya.
+•  Jika pada simbol relasinya terdapat Attribute deskriptif maka perlu adanya table baru yang mewakili relasi tersebut.
+•  Bila tidak, maka tidak perlu membuat table baru dan hanya butuh Attribute Foreign Key pada Entity yang bersifat Many.
+
+Implementasi Many to many
+•  Pada relasi ini perlu membentuk table baru yang mewakili relasi dan perlu adanya Foreign Key dari tiap Entity yang berelasi.
+
